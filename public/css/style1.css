@@ -1,0 +1,44 @@
+*{
+   margin:0;
+   padding:0;
+   text-decoration: none;
+}
+
+ .slider{
+  overflow: hidden;
+  height: 600px;
+  
+}
+  .slider figure div{
+   float:left;
+   width: 5%;
+}
+  .slider figure img {
+   width:85%;
+  
+}
+   .slider figure{
+    position: relative;
+    width:500%;
+    margin:0px;
+left:0;
+animation: 20s mehak infinite;
+
+}
+ @keyframes mehak{
+
+       
+  
+   
+   
+     12%{
+    
+      left: 10%;
+}
+  
+    
+
+   
+
+
+}
